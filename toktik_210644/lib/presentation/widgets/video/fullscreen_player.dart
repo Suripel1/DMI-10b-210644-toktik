@@ -5,7 +5,10 @@ class FullScreenPlayer extends StatelessWidget {
   final String caption;
 
   const FullScreenPlayer(
-      {super.key, required this.videoUrl, required this.caption});
+      {super.key, 
+      required 
+      this.videoUrl,
+      required this.caption});
 
   @override
   Widget build(BuildContext context) {
